@@ -394,3 +394,140 @@ a {
     transition: all 0.1s ease;
     transform: scale(1.5)
 }
+#menu-btn{
+display:none;
+font-size:26px;
+cursor:pointer;
+margin-right:20px;
+}
+
+
+@media (max-width:1024px){
+
+.home p{
+margin-right:200px;
+}
+
+#about .food-content{
+flex-direction:column;
+align-items:center;
+text-align:center;
+}
+
+#about .food-content p{
+margin:20px;
+}
+
+#about .food-content img{
+margin-right:0;
+}
+
+#product1 .pro-container{
+justify-content:center;
+}
+
+}
+
+
+@media (max-width:768px){
+
+#menu-btn{
+display:block;
+}
+
+
+nav ul{
+position:absolute;
+top:70px;
+left:0;
+width:100%;
+background:white;
+flex-direction:column;
+align-items:center;
+display:none;
+padding:20px 0;
+}
+
+nav ul.active{
+display:flex;
+}
+
+
+.home{
+margin-left:20px;
+margin-right:20px;
+text-align:center;
+}
+
+.home h2{
+font-size:35px;
+}
+
+.home h1{
+font-size:30px;
+}
+
+.home p{
+margin-right:0;
+font-size:16px;
+}
+
+.home button{
+margin-top:40px;
+}
+
+
+#about{
+height:auto;
+padding:50px 0;
+}
+
+#about .title{
+margin:20px;
+}
+
+#about .food-content{
+flex-direction:column;
+}
+
+#about .food-content img{
+width:80%;
+}
+
+
+.icons-contain{
+flex-direction:column;
+align-items:center;
+}
+
+
+#product1 .pro-container{
+flex-direction:column;
+align-items:center;
+}
+
+#product1 .pro{
+margin:20px;
+}
+
+
+.contact .row{
+flex-direction:column;
+}
+
+.contact .row .image img{
+width:90%;
+margin-left:0;
+}
+
+.contact .row form .box{
+width:100%;
+}
+
+
+.contacts2{
+flex-direction:column;
+align-items:center;
+}
+
+}
